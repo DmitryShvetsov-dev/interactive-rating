@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  background-color: hsl(216, 12%, 8%);
+}
+.mainbox {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  margin: 40px;
+  margin-bottom: 0px;
+  background-color: hsl(213, 19%, 21%);
+  height: 60px;
+  width: 60px;
+  background-image: url(/images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-x: center;
+  background-position-y: center;
+  border-radius: 50%;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+}
+.question {
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+.feedback {
+  font-weight: 400;
+  margin: 40px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 0px;
+}
+.buttons {
+  margin: 40px;
+}
+.rate1,
+.rate2,
+.rate3,
+.rate4,
+.rate5 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 21%);
+  border: 0;
+}
+
+.submit {
+  margin: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.submitbtn {
+  width: 420px;
+  height: 60px;
+  border-radius: 30px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  border: 0;
+  padding: 0;
+}
+.rate1:hover,
+.rate2:hover,
+.rate3:hover,
+.rate4:hover,
+.rate5:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.submitbtn:hover{
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.rate1:focus,
+.rate2:focus,
+.rate3:focus,
+.rate4:focus,
+.rate5:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+#thankuimg{
+  display: none;
+  height: 200px;
+  width: 200px;
+  background-image: url(/images/illustration-thank-you.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+#selectedrate{
+  display: none;
+}
+#thx{
+  display: none;
+}
+#thxletter
+{
+  display: none;
+}
+
+#thx2
+{
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+#thxletter2
+{
+  font-size: 20px;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  text-align: center;
+}
+#selectedrate2{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color:hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 21%);
+  border-radius: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
